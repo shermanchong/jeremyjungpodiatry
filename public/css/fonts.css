@@ -1,0 +1,19 @@
+@font-face{
+
+    font-family: "FrutigerBlk";
+    src: url(../fonts/Frutiger/Frutiger\ LT\ 75\ Black.ttf) format("truetype");
+}
+
+@font-face{
+
+    font-family: "FrutigerRoman";
+    src: url(../fonts/Frutiger/Frutiger\ LT\ 56\ Italic.ttf) format("truetype");
+}
+
+@font-face{
+
+    font-family: "FuturaBookOblique";
+    src: url(../fonts/FuturaPT/FuturaPTBookOblique.otf) format("opentype");
+}
+
+ 

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html style="overflow-x: hidden;">
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/custom.css" />
+  <link type="text/css" rel="stylesheet" href="css/fonts.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body style="
+    background-color:#F6FCFB;
+    color:#595959;
+    width: 98vw;
+    padding: 0;
+    margin:0;
+    overflow-x: hidden;
+    ">
+      <div class="s12" style="overflow-x: hidden">
+        <div class="row" style="width: 100vw;
+            padding: 0;">
+          <div class="col s12 center-align" style="padding: 0;">
+            <!--Header & Hero-->
+
+            <header>
+              <div class="center-align">
+
+                <h1 style="font-family:FrutigerBlk;
+                      font-size: 9vw;">
+                  Dr. Jeremy A. JUNG</h1>
+
+                <h5 style="letter-spacing: 0.5vw;
+                      margin-top: -3vh;
+                      font-family: FuturaBookOblique;
+                      font-size: 6vw;
+                      color:#3F88C5;">
+                  Podiatric Medicine and Surgery</h5>
+
+              </div>
+            </header>
+            <main>
+              <div class="col s12" style="padding: 0;">
+                <div id="hero" class="col s12 right-align valign-wrapper" style="
+                          background-image: url(images/hero.jpg); 
+                          background-size:cover; 
+                          background-repeat:no-repeat;
+                          filter: blur(0.5px);
+                          height: 60vh;
+                          width: 100vw;
+                          
+                          ">
+
+                </div>
+                <div class="col s12 right-align valign-wrapper" style="z-index: 2;
+                          position: absolute;
+                          width: 80vw;
+                          right: 10%;
+                          top: 32%">
+                  <div>
+                    <h2 style="
+                              color:white;">
+                      A Smarter Approach to Taking Care of Your Body</h2>
+
+                    <a class="btn-large" style="background-color: #3F88C5;
+                                border-radius: 26px;
+                                font-family: FrutigerBlk;
+                                font-size: 4.5vw;" href="tel:+1-604-655-0025">
+                      <i class="material-icons left">call</i>
+                      Call Now
+                    </a>
+                    <h5 style="
+                              color:white;
+                              font-family: FrutigerRoman;
+                              ">(604) 655-0025</h5>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+        <!--Floating Action Button-->
+        <div class="fixed-action-btn" style="margin-right: 5vw;
+          margin-bottom: 8vh;">
+          <a class="btn-floating btn-large" style="background-color: #F7B260;" href="tel:+1-(604)-655-0025">
+            <i class="large material-icons">call</i>
+          </a>
+        </div>
+        <!--Services-->
+        <div class="row s12 center-align " style=" width: 103vw;">
+
+          <div id='orthocont' class="card horizontal" style="
+                    align-items: flex-start;
+                    background-color:#F6FCFB;
+                    margin-bottom: -1vh; 
+                    padding-top: 2vh;
+                    height: 13vh;
+                    transition: height 0.3s ease-out;
+                      " onclick="expServices('orthotics')">
+            <div class="card-stacked">
+              <div class="row s12 center-align" style="margin: 0;">
+                <div class="col s3 right-align">
+                  <img src="images/orthotics.svg" alt="orthotics" style="height:14vw;
+                                width:14vw;
+                                margin-top: 1.5vh;" />
+                </div>
+                <div class="col s7 left-align">
+                  <h4 style="
+                              font-family: FrutigerBlk;
+                              margin-bottom: 3vh;
+                              padding-bottom: 0;
+                              ">Orthotics</h4>
+                </div>
+                <div class="col s2 left-align">
+                  <i id="orthosym" class="material-icons center-align" style="padding-top: 2.5vh;">add</i>
+                </div>
+              </div>
+              <div class="row s12 left-align" style="margin-right: 4vw;
+                          margin-left:7vw;
+                          margin-top:0;">
+                <div id="orthotics" class="col s12 card-content" style="padding-top: 0;
+                            padding-bottom: 1vh;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: opacity 0.5s ease-in;
+                            position: absolute;
+                            padding-right: 20vw;
+                            padding-left: 8vw;
+                            ">
+                  <span>A prescribed custom moulded device to help realign your foot into a biomechanically optimized
+                    position
+                    It helps to correct abnormal foot function.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="nailcont" class="card horizontal" style="
+                    align-items: flex-start;
+                    background-color:#F6FCFB;
+                    margin-bottom: -1vh;
+                    padding-top: 2vh;
+                    height: 13vh;
+                    transition: height 0.3s ease-out;
+                      " onclick="expServices('nail')">
+
+            <div class="card-stacked">
+              <div class="row s12 center-align" style="margin: 0;">
+                <div class="col s3 right-align">
+                  <img src="images/nailskin.svg" alt="Nail & Skin" style="height:14vw;
+                                width:14vw;
+                                margin-top: 1.5vh;" />
+                </div>
+                <div class="col s7 left-align">
+                  <h4 style="
+                              font-family: FrutigerBlk;
+                              margin-bottom: 3vh;
+                              padding-bottom: 0;
+                              ">Nail & Skin</h4>
+                </div>
+                <div class="col s2 left-align">
+                  <i id="nailsym"class="material-icons center-align" style="padding-top: 2.5vh;">add</i>
+                </div>
+              </div>
+              <div class="row s12 left-align" style="margin-right: 4vw;
+                          margin-left:7vw;
+                          margin-top:0;">
+
+                <div id="nail" class="col s12 card-content" style="padding-top: 0;
+                            padding-bottom: 1vh;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: opacity 0.5s ease-in;
+                            position: absolute;
+                            padding-right: 18vw;
+                            padding-left: 8vw;
+                            ">
+                  <span>Personalized treatment for common conditions including fungal toenails, athletes foot, ingrown
+                    toenails, warts, dry skin, calluses and corns.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="footcont" class="card horizontal" style="
+                    align-items: flex-start;
+                    background-color:#F6FCFB;
+                    margin-bottom: -1vh;
+                    padding-top: 2vh;
+                    height: 16vh;
+                    transition: height 0.3s ease-out;
+                      " onclick="expServices('footpain')">
+            <div class="card-stacked">
+              <div class="row s12 center-align" style="margin: 0;">
+                <div class="col s3 right-align">
+                  <img src="images/footpain.svg" alt="Foot Pain & Sports Injuries" style="height:14vw;
+                                width:14vw;
+                                margin-top: 2.5vh;" />
+                </div>
+                <div class="col s7 left-align">
+                  <h4 style="
+                              font-family: FrutigerBlk;
+                              margin-bottom: 3vh;
+                              padding-bottom: 0;
+                              ">Foot Pain & Sports Injuries</h4>
+                </div>
+                <div class="col s2 left-align">
+                  <i id="footsym" class="material-icons center-align" style="padding-top: 2.5vh;">add</i>
+                </div>
+              </div>
+              <div class="row s12 left-align" style="margin-right: 4vw;
+                          margin-left:7vw;
+                          margin-top:0;">
+                <div id="footpain" class="col s12 card-content" style="padding-top: 0;
+                            padding-bottom: 1vh;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: opacity 0.5s ease-in;
+                            position: absolute;
+                            padding-right: 18vw;
+                            padding-left: 8vw;
+                            ">
+                  <span>Personalized treatment for common conditions including heel pain, bunions and big toe pain, Achilles
+                    tendonitis, hammertoes, nerve pain, flat feet, ankle sprains, lumps and bumps, gout.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div id="diabcont" class="card horizontal" style="
+                    align-items: flex-start;
+                    background-color:#F6FCFB;
+                    margin-bottom: -1vh;
+                    padding-top: 2vh;
+                    height: 16vh;
+                    transition: height 0.3s ease-out;
+                      " onclick="expServices('diabetic')">
+            <div class="card-stacked">
+              <div class="row s12 center-align" style="margin: 0;">
+                <div class="col s3 right-align">
+                  <img src="images/diabetic.svg" alt="Diabetic Foot Care" style="height:14vw;
+                                width:14vw;
+                                margin-top: 2.5vh;" />
+                </div>
+                <div class="col s7 left-align">
+                  <h4 style="
+                              font-family: FrutigerBlk;
+                              margin-bottom: 3vh;
+                              padding-bottom: 0;
+                              ">Diabetic Foot Care</h4>
+                </div>
+                <div class="col s2 left-align">
+                  <i id="diasym" class="material-icons center-align" style="padding-top: 2.5vh;">add</i>
+                </div>
+              </div>
+              <div class="row s12 left-align" style="margin-right: 4vw;
+                          margin-left:7vw;
+                          margin-top:0;">
+                <div id="diabetic" class="col s12 card-content" style="padding-top: 0;
+                            padding-bottom: 1vh;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: opacity 0.5s ease-in;
+                            position: absolute;
+                            padding-right: 18vw;
+                            padding-left: 8vw;
+                            ">
+                  <span>Patients with diabetes are at a higher risk for complicated wounds, ulcerations, and skin and nail
+                    conditions, and should have an established preventative program for routine foot care. </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!--Bio-->
+        <div class="row s12 center-align">
+          <div class="col s12 center-align" style="padding: 0;">
+            <div id="bio" class="col s12 right-align valign-wrapper" style="padding: 0;">
+
+              <img src="images/bio.jpg" style="height: 60vh;
+                              width: 100vw;
+                              padding: 0;
+                              margin-top: 3vh;
+                              margin-bottom: 3vh;" alt="Podiatrist">
+            </div>
+            <div class=" s12 center-align">
+
+              <h1 style="font-family:FrutigerBlk;
+                                  font-size: 9vw;">
+                Dr. Jeremy A. JUNG</h1>
+
+              <h5 style="letter-spacing: 0.5vw;
+                                  margin-top: -3vh;">
+                Podiatric Medicine and Surgery</h5>
+
+            </div>
+
+
+            <div class="s12 left-align" style="
+                              margin: 10vw;">
+
+              <h4 style="font-size: 5.5vw;">Doctor of Podiatry (DPM)</h4>
+              <h6>Barry School of Podiatric Medicine</h6>
+              <span style="letter-spacing: 0.1vw;">Podiatric medical education in the United States consists of four years
+                of
+                graduate education with the first two focusing primarily upon the sciences and the last two focusing upon
+                didactic, clinical, and hospital externship experience.</span>
+
+            </div>
+
+          </div>
+
+          <!--Operations-->
+
+          <div class="row s12 center-align">
+
+            <div class="col s12 center-align" style="padding: 0;">
+
+              <div id="map" class="col s12 right-align valign-wrapper" style="padding: 0; ">
+
+                <img src="images/map.jpg" style="
+                                  width: 100vw;
+                                  padding: 0;
+                                  margin-top: 5vh;
+                                  margin-bottom: 3vh;">
+              </div>
+
+              <div class="col s12 center-align" style="padding: 10vw;">
+                <div id="hours" class="col s12 left-align" style="padding: 0; 
+                                      margin-bottom:1vw;
+                                      color: #3F88C5">
+                  <h7>Hours:<br></h7>
+                </div>
+                <div class="col s6 left-align" style="padding:0; margin-bottom:6vw;">
+
+                  <span>
+                    Sunday
+                    <br>
+                    Monday
+                    <br>
+                    Tuesday
+                    <br>
+                    Wednesday
+                    <br>
+                    Thursday
+                    <br>
+                    Friday
+                    <br>
+                    Saturday
+                  </span>
+                </div>
+                <div class="col s6 right-align">
+
+                  <span>
+                    Closed
+                    <br>
+                    Closed
+                    <br>
+                    1 - 6 P.M.
+                    <br>
+                    Closed
+                    <br>
+                    1 - 6 P.M
+                    <br>
+                    Closed
+                    <br>
+                    8 A.M. - 5 P.M.
+                  </span>
+                </div>
+
+                <div id="address" class="col s12 left-align" style="padding:0; 
+                                      margin-bottom:1vw;
+                                      color: #3F88C5">
+                  <h7>Address:<br></h7>
+                </div>
+                <div class="col s12 left-align" style="padding: 0; margin-bottom:6vw;">
+                  <a href="https://www.google.com/maps/search/?api=1&query=jeremy+jung+podiatrist">360-7031 Westminster Hwy,
+                    <br> Richmond, BC V6X 1A3</a>
+                </div>
+
+                <div id="phone" class="col s12 left-align" style="padding:0; 
+                                    margin-bottom:1vw;
+                                    color: #3F88C5">
+                  <h7>Phone:<br></h7>
+                </div>
+                <div class="col s12 left-align" style="padding: 0; margin-bottom:0vw;">
+                  <a href="tel:+1-604-655-0025">(604) 655-0025</a>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+          </main>
+
+        </div>
+
+        <!--Footer-->
+        <footer class="page-footer" style="background-color: #3F88C5; padding: 0;">
+          <div class="container" style="margin-left: 4vw;">
+            <div class="row">
+              <div class="col l6 s12" style="padding:0;">
+                <h1 style="font-family:FrutigerBlk;
+                                      font-size: 9vw;">
+                  Dr. Jeremy A. JUNG</h1>
+                <h5 style="letter-spacing: 0.5vw;
+                                      margin-top: -3vh;
+                                      color:#F7B260">
+                  Podiatric Medicine and Surgery</h5>
+
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              © 2019 Dr.Jeremy Jung All Rights Reserved.
+
+            </div>
+          </div>
+        </footer>
+
+      </div>ÍÍ
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
