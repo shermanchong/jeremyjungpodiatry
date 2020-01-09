@@ -16,4 +16,8 @@
     src: url(../fonts/FuturaPT/FuturaPTBookOblique.otf) format("opentype");
 }
 
- 
+@font-face{
+
+    font-family: "FrutigerLight";
+    src: url(../fonts/Frutiger/Frutiger\ LT\ 46\ Light\ Italic.ttf) format("truetype");
+}

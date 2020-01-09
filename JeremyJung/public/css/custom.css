@@ -1,4 +1,27 @@
+.container{
+    width: 100%;
+}
 
+body{
+    background-color:#F6FCFB;
+    color:#595959;
+    width: 100vw;
+    padding: 0;
+    margin:0;
+    margin-top: 10vh;
+    overflow-x: hidden;
+}
+
+.collapsible-header{
+    background-color:#F6FCFB;
+}
+
+.collapsible-body{
+    width: 85%;
+    margin: auto;
+}
+
+/*
 h1{
     font-family: 'FrutigerBlk';
     font-size: 9vw;
@@ -6,8 +29,15 @@ h1{
 
 h2{
     font-family: 'FrutigerRoman';
-    font-size: 6vw;
-    line-height: 8vw;
+    font-size: 7vw;
+    line-height: 12vw;
+}
+
+h3{
+    font-family: "FrutigerLight";
+    font-size: 4vw;
+    line-height: 5vw;
+    letter-spacing: 0.1vw;
 }
 
 h4{
@@ -30,3 +60,48 @@ i{
     font-size: 10vw;
 }
 
+*/
+
+p{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    letter-spacing: 0.02vw;
+    line-height: 2.75vh;
+}
+
+#titleBar{
+    position: fixed;
+    top: -10px;
+    width: 100%;
+    z-index: 3;
+    padding-bottom: 5px;
+    background-color: #F6FCFB;
+   
+
+}
+
+
+
+.parallax img{
+    width: 100%;
+    
+    
+    
+}
+
+.wordmark{
+    padding: 0;
+}
+
+.wordmark h1{
+    margin-bottom: 2.75vh;
+}
+
+.links{
+    display: inline;
+}
+
+.links img{
+    height: 7vw;
+    margin-top: 1vh;
+}

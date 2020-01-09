@@ -1,3 +1,5 @@
+M.AutoInit();
+
 const ortho = document.querySelector("#orthotics");
 const orthocont = document.querySelector("#orthocont");
 const orthosym = document.querySelector("#orthosym");
@@ -81,3 +83,11 @@ else if(param == "diabetic"){
 
 }
 
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, options);
+  });
+
+  var instance = M.Parallax.getInstance(elem);
