@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color:#F6FCFB;
+    background-color:#F6FBFF;
     color:#595959;
     width: 100vw;
     padding: 0;
@@ -13,7 +13,7 @@ body{
 }
 
 .collapsible-header{
-    background-color:#F6FCFB;
+    background-color:#F6FBFF;
 }
 
 .collapsible-body{
@@ -65,8 +65,8 @@ i{
 p{
     margin-top: 2vh;
     margin-bottom: 5vh;
-    letter-spacing: 0.02vw;
-    line-height: 2.75vh;
+    letter-spacing: 0.2px;
+    line-height: 22px;
 }
 
 #titleBar{
@@ -76,6 +76,7 @@ p{
     z-index: 3;
     padding-bottom: 5px;
     background-color: #F6FCFB;
+   
    
 
 }

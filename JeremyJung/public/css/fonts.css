@@ -18,6 +18,27 @@
 
 @font-face{
 
-    font-family: "FrutigerLight";
+    font-family: "FuturaBold";
+    src: url(../fonts/FuturaPT/FuturaPTBold.otf) format("opentype");
+}
+
+
+@font-face{
+
+    font-family: "FrutigerLightItalic";
     src: url(../fonts/Frutiger/Frutiger\ LT\ 46\ Light\ Italic.ttf) format("truetype");
+}
+
+
+@font-face{
+
+    font-family: "FrutigerLight";
+    src: url(../fonts/Frutiger/Frutiger\ LT\ 45\ Light.ttf) format("truetype");
+}
+
+
+@font-face{
+
+    font-family: "FrutigerBoldOblique";
+    src: url(../fonts/Frutiger/Frutiger\ LT\ 66\ Bold\ Italic.ttf) format("truetype");
 }
